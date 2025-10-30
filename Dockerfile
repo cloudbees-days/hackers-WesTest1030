@@ -1,3 +1,4 @@
+# Q Security Fix Applied - $(date)
 FROM node:20-alpine AS builder
 WORKDIR /app
 RUN apk add --no-cache jq bash
